@@ -1,0 +1,19 @@
+{
+  "project_name": "TestingRepo",
+  "version": "1.0.0",
+  "description": "A testing repository for testing purposes",
+  "environment": "development",
+  "features": {
+    "testing_enabled": true,
+    "debug_mode": true,
+    "verbose_logging": false
+  },
+  "test_settings": {
+    "run_on_save": false,
+    "coverage_threshold": 80,
+    "test_frameworks": [
+      "python-unittest",
+      "javascript-custom"
+    ]
+  }
+}
